@@ -1,0 +1,61 @@
+---
+# ------------------------------ FORM ------------------------------
+form-title: "§l§3•§2 Rank Shop §3•" # $form->setTitle();
+exit-button: "§l§3•§2 Thoát Menu §3•" # Tên Nút Thoát
+back-button: "§l§3•§2 Quay Lại §3•" # Tên Nút Quay Lại
+fifteen-button: "§l§3•§2 Mua 15 Ngày §3•" # Tên Nút Mua 15 Ngày
+forever-button: "§l§3•§2 Mua Vĩnh Viễn §3•" # Tên Nút Mua Vĩnh Viễn
+# ------------------------------------------------------------------
+
+# ----------------------------------------- Những Rank Không Thể Mua -----------------------------------------
+rank-anti-buy:
+  list: ["Admin", "Owner", "Staff", "Helper", "Builder", "OP"] # Tự thêm tự xóa
+  msg: "§l§c•§e Bạn là các Staff trong server, nên bạn không thể mua rank này !" # Tin nhắn khi mua rank khác
+# ------------------------------------------------------------------------------------------------------------
+
+# ------------------------------------------- Broadcast và Message -------------------------------------------
+broadcast:
+  successfully: "§l§c•§e Người Chơi§b {player} §eVừa Mua Thành Công Rank§a {rank} §eVới Số Ngày Là§c {time}"
+msg-buy-fallied: "§l§c•§e Bạn Cần§a {cost} Coin§e Để Mua Rank Này"
+# ------------------------------------------------------------------------------------------------------------
+
+# -------------------- VipI --------------------
+VipI:
+  button: "§l§3•§2 VipI §3•"
+  cost:
+    fifteenday: 50 # Giá 15 Ngày Của VipI
+    forever: 100 # Giá Vĩnh Viễn Ngày Của VipI
+# ----------------------------------------------
+
+# -------------------- VipII --------------------
+VipII:
+  button: "§l§3•§2 VipII §3•"
+  cost:
+    fifteenday: 100 # Giá 15 Ngày Của VipII
+    forever: 200 # Giá Vĩnh Viễn Ngày Của VipII
+# ----------------------------------------------
+
+# -------------------- VipIII --------------------
+VipIII:
+  button: "§l§3•§2 VipIII §3•"
+  cost:
+    fifteenday: 200 # Giá 15 Ngày Của VipIII
+    forever: 400 # Giá Vĩnh Viễn Ngày Của VipIII
+# ----------------------------------------------
+
+# -------------------- VipIV --------------------
+VipIV:
+  button: "§l§3•§2 VipIV §3•"
+  cost:
+    fifteenday: 400 # Giá 15 Ngày Của VipIV
+    forever: 800 # Giá Vĩnh Viễn Ngày Của VipIV
+# ----------------------------------------------
+
+# -------------------- King --------------------
+King:
+  button: "§l§3•§2 King §3•"
+  cost:
+    fifteenday: 800 # Giá 15 Ngày Của King
+    forever: 1600 # Giá Vĩnh Viễn Ngày Của King
+# ----------------------------------------------
+...
